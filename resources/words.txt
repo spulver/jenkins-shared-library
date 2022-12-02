@@ -1,10 +1,9 @@
-explore
-new
-words
-and
-music
-from
-all
+the
+quick
+brown
+fox
+jumps
 over
 the
-world
+lazy
+dog
