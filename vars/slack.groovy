@@ -6,6 +6,10 @@ void send(String channel, String message, String color) {
   )
 }
 
+void send(String channel, String message) {
+  send(channel: channel, message: "${BUILD_URL}\n${message}")
+}
+
 void send(Map params=[:]) {
 
   Map defaultParams = [
