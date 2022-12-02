@@ -21,5 +21,5 @@ void send(Map params=[:]) {
 }
 
 void call(String channel = "#general", String message = "", String color = "") {
-  send channel, message)
+  send(channel, message)
 }
