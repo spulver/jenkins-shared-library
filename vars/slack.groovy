@@ -1,5 +1,5 @@
 void send(String channel, String message) {
-  send(channel: channel, message: message)
+  send(channel: channel, message: "${BUILD_URL}\n${message})
 }
 
 void send(Map params=[:]) {
