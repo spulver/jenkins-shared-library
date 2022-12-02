@@ -19,3 +19,7 @@ void send(Map params=[:]) {
 
   slackSend(defaultParams << params)
 }
+
+void call(String channel = "#general", String message = "", String color = "") {
+  send channel, message)
+}
